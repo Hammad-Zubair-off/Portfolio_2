@@ -8,9 +8,11 @@
   header {
     width: 375px;
     height: 48px;
+    top: 44px;
     padding: 4px 24px 4px 12px;
-    color: rgb(34, 116, 143);
-    opacity: 0;
+    gap: 0;
+    opacity: 1;
+    color: #6070FF;
   }
   
   nav {
@@ -20,54 +22,95 @@
   }
   
   nav > span {
+    width: Hug (100px)px; /* Invalid value, keep as is for your reference */
+    height: Hug (40px)px; /* Invalid value, keep as is for your reference */
+    top: 4px;
+    left: 12px;
+    padding: 10px 12px;
+    gap: 0;
+    opacity: 1;
+  
+    font-family: Poppins;
     font-size: 18px;
     font-weight: 700;
     line-height: 20px;
     text-align: center;
   }
   
+  nav > img {
+    width: Hug (40px)px; /* Invalid value, keep as is for your reference */
+    height: Hug (40px)px; /* Invalid value, keep as is for your reference */
+    top: 4px;
+    left: 311px;
+    padding: 4px 0 0 0;
+    gap: 0;
+    border-radius: 8px 0 0 0;
+    opacity: 1;
+  }
+  
   main {
     width: 375px;
-    height: 604px;
+    min-height: 604px;
+    top: 92px;
     padding: 114px 24px;
-    opacity: 0;
+    gap: 12px;
+    opacity: 1;
+    background-image:url(header-shapes\ mobile.png); /* Use forward slashes for paths */
   }
   
   .intro {
     width: 327px;
     height: 150px;
+    gap: 0;
+    opacity: 1;
+    font-family: Poppins;
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
     text-align: left;
-    opacity: 0;
   }
   
   .about {
     width: 327px;
     height: 146px;
+    gap: 0;
+    opacity: 1;
+    font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
     color: #344563;
-    opacity: 0;
+    margin-top: 15px;
   }
   
   .connect {
     width: 117px;
     height: 24px;
+    gap: 0;
+    opacity: 1;
+    font-family: Poppins;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     text-align: left;
-    opacity: 0;  
+    color: #7F8CFF;
   }
   
   .social_icon {
-    width: 375px; /* Adjusted width */
-    height: 604px; /* Adjusted height */
+    width: 375px;
+    height: 604px;
+    top: 2px;
     padding: 114px 24px;
-    opacity: 0;
+    gap: 12px;
+    opacity: 1;
+  }
+  
+  .social_icon > img {
+    width: 20px;
+    height: 16px;
+    gap: 0;
+    opacity: 1;
+    margin: 0 5px;
   }
   
