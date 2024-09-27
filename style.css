@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  header {
+    width: 375px;
+    height: 48px;
+    padding: 4px 24px 4px 12px;
+    color: rgb(34, 116, 143);
+    opacity: 0;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  nav > span {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+  }
+  
+  main {
+    width: 375px;
+    height: 604px;
+    padding: 114px 24px;
+    opacity: 0;
+  }
+  
+  .intro {
+    width: 327px;
+    height: 150px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: left;
+    opacity: 0;
+  }
+  
+  .about {
+    width: 327px;
+    height: 146px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #344563;
+    opacity: 0;
+  }
+  
+  .connect {
+    width: 117px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    opacity: 0;  
+  }
+  
+  .social_icon {
+    width: 375px; /* Adjusted width */
+    height: 604px; /* Adjusted height */
+    padding: 114px 24px;
+    opacity: 0;
+  }
+  
