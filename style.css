@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  width: 375px;
+  height: 48px;
+  top: 44px;
+  padding: 4px 24px 4px 12px;
+  gap: 0;
+  opacity: 1;
+  color: #6070ff; /* Changed to lowercase */
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav > span {
+  width: hug(100px); /* Invalid value, kept as is for reference */
+  height: hug(40px); /* Invalid value, kept as is for reference */
+  top: 4px;
+  left: 12px;
+  padding: 10px 12px;
+  gap: 0;
+  opacity: 1;
+  font-family: Poppins, sans-serif; /* Added generic family */
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+}
+
+nav > img {
+  width: hug(40px); /* Invalid value, kept as is for reference */
+  height: hug(40px); /* Invalid value, kept as is for reference */
+  top: 4px;
+  left: 311px;
+  padding: 4px 0 0 0;
+  gap: 0;
+  border-radius: 8px 0 0 0;
+  opacity: 1;
+}
+
+main {
+  width: 375px;
+  min-height: 604px;
+  top: 92px;
+  padding: 114px 24px;
+  gap: 12px;
+  opacity: 1;
+  background-image: url('header-shapes/mobile.png'); /* Changed to forward slash */
+}
+
+.intro {
+  width: 327px;
+  height: 150px;
+  gap: 0;
+  opacity: 1;
+  font-family: Poppins, sans-serif; /* Added generic family */
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: left;
+}
+
+.about {
+  width: 327px;
+  height: 146px;
+  gap: 0;
+  opacity: 1;
+  font-family: Poppins, sans-serif; /* Added generic family */
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #344563;
+  margin-top: 15px;
+}
+
+.connect {
+  width: 117px;
+  height: 24px;
+  gap: 0;
+  opacity: 1;
+  font-family: Poppins, sans-serif; /* Added generic family */
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #7f8cff; /* Changed to lowercase */
+}
+
+.social_icon {
+  width: 375px;
+  height: 604px;
+  top: 2px;
+  padding: 7px 1px;
+  gap: 12px;
+  opacity: 1;
+}
+
+.social_icon > img {
+  width: 20px;
+  height: 16px;
+  gap: 0;
+  opacity: 1;
+  margin: 0 5px;
+}
+
+#icon1 {
+  margin-right: 5px;
+  margin-left: -4px;
+}
